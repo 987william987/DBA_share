@@ -26,7 +26,7 @@ MEXC 是抹茶交易所，在 CMC 上交易量排名世界前 20，創辦人也�
 後來聽到關於 alan 這個人的評價以及公司一些內幕之後，就覺得還是乖乖在 bn 等著領資遣就好了（？<br>
 （欲知詳情請私我）<br>
 
-offer:180k/M *12 + 2M sign on bonus + crypto bonus\n
+offer:180k/M *12 + 2M sign on bonus + crypto bonus<br>
 據說 crypt bonus 是雙月發一次，考績分為 SABC，以現在熊市的情況來說，要有Ａ才會有一個月，目前一年平均約 5~6個月左右<br>
 薪水也小氣，死不加薪，只讓我用現在薪資平轉過去，最多就只給兩個月的簽字費...<br>
 而目前台灣辦公室是採 hybrid 模式，週一週五進辦公室。而 alan 在面試中口頭答應我可以改成連續兩天進辦公室，但這個也沒寫在 offer letter 上 .... <br>

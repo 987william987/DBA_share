@@ -1,7 +1,7 @@
-面試職缺：DBA
-面試人員：William
-管道: Persolkelly hunter, Natalie Chang
-
+面試職缺：DBA    
+面試人員：William    
+管道: Persolkelly hunter, Natalie Chang    
+    
 ## 面試時間：2023/9/4 13:00~15:00
 Redis
 - 你們幣安 redis 分片的容量有多少

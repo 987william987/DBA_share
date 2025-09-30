@@ -5,7 +5,76 @@
 
 ## hackrank
 面試前，會給予一份 DBA考題，使用 hackrank 作答。題目不算難，大概十多題。但給的時間不算特別充裕
+```
+1. In AWS RDS environment, how do you add an index or add a column in a very large and busy MySQL table without affecting other transactions
+2. what are the major reasons that cause the AWS RDS Aurora "Replica Lag" issue? Please provide the investigate steps and tools to drill down the problem, and what will are your suggestions to improve?
+3. In your company, the RDS is on a dedicated subnet and the access is protected by VPN. Last week, a new brance office launched in Los Angeles and the network team set up a us-west vpn for the office. And you had set up a mysql account for a developer in the new office. But he replied to you that he cannot connect to the RDS. What is the major steps to do troubleshooting?
+4. How do you identify the root cause of high CPU loading of a AWS RDS MySQL instance? What tools you will use? Please provide the procedures you would do to identify and solve the issue.
+5.Please optimize properly indexes for table:
+CREATE TABLE tbl_name (
+  id bigint,
+  Column1 varchar(100) NOT NULL,
+  Column2 tinyint,
+  Column3 varchar(100) NOT NULL
+  Column4 varchar(150),
+  Column5 tinyint NOT NULL
+PRIMARY KEY (id)
+INDEX idx column2 (Column2)
+INDEX idx column3 (Column3),
+INDEX idx column2 Column1 (Column2, Column1)
+) ENGINE INNODB:
 
+Given queries for tbl_name table:
+SELECT MIN(Column2), MAX(Column1) FROM tbl name WHERE Column1=10 or Column2=32;
+SELECT Column3 FROM tbl name WHERE Column1=1:
+SELECT Column1, Column2, Column3 FROM tbl_name WHERE Column1=10 ORDER BY Column2 DESC;
+SELECT Column1, Column2, Column3 FROM tbl_name WHERE Column2 >10;
+
+6.How do you monitor the performance of AWS RDS database, what metrics should be cared especially? How to do autoscaling for AWS RDS?
+
+7.
+Given two tables, Employee and Department generate a summary of how many employees are in each department. Each department should be listed, whether they currently have any employees or not. The results should be sorted from high to low by number of employees, and then alphabetically by department when departments hive the same number of employees. The results should list the department name followed by the employee count. The column names are not tested, so use whatever is appropriate.
+
+Schema : EMPLOYEE
+| Name   | Type    | Description
+|--------|---------|---------------
+| ID     | Integer | Employee ID number. This is a primary key.
+| NAME   | String  | Employee name
+| SALARY | Integer | Employee salary
+| DEPT_ID | Integer | ID of the employee's department, a foreign key to DEPARTMENT.ID
+
+Schema :  DEPARTMENT
+| Name     | Type    | Description
+|----------|---------|---------------------
+| ID       | Integer | Department ID. This is a primary key.
+| NAME     | String  | Department name
+| LOCATION | String  | Department location
+
+Sample Data Tables
+EMPLOYEE
+ID | NAME    | SALARY | DEPT_ID
+---|---------|--------|---------
+1  | Candice | 4665   | 1
+2  | Julie   | 2558   | 2
+3  | Rob     | 4405   | 4
+4  | Scarlet | 2350   | 1
+5  | Ileana  | 1151   | 4
+
+DEPARTMENT
+ID | NAME       | LOCATION
+---|------------|----------
+1  | Executive  | Sydney
+2  | Production | Sydney
+3  | Resources  | Cape Town
+
+Sample Output
+Executive 2
+Technical 2
+Production 1
+Managment 0
+Resources 0
+
+```
 
 ## 第一面 面試時間 - (因為後來有加面，所以這算第一面)
 ```

@@ -1,12 +1,13 @@
 ## ByteDance 朝夕光年
 字節跳動的遊戲部門公司，之前嚴重裁員過，新加坡 onsite，目前沒有專門的 DBA，只有 sre 代管，專注使用 mongodb
 
+```
 Interview Details:​
 Position: Database Administrator - Game​
 Interviewer: Kevin Xiao- SRE Team Lead​
 Interview Duration: 45 mins​
 Interview Date and Time: 2025-02-20 10:00, (GMT+08:00) China Standard Time - Beijing​
-
+```
 
 ## 我問的問題
 1. 這邊 mongodb, redis 的量級有多少，譬如多少實例，多大的 qps。目前是誰在負責數據庫，以前是否有專門的 dba

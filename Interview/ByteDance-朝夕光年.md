@@ -1,3 +1,5 @@
+面試人員：William
+
 ## ByteDance 朝夕光年
 字節跳動的遊戲部門公司，之前嚴重裁員過，新加坡 onsite，目前沒有專門的 DBA，只有 sre 代管，專注使用 mongodb
 

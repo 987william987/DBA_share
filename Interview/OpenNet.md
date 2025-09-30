@@ -1,3 +1,5 @@
+面試人員：William
+
 # OpenNet
 台灣的博弈公司，沒記錯以前是中資的，後來被英國 sporty 買下來，專做非洲市場。HR Freya 在 linkedin 上主動連繫我進行面試
 

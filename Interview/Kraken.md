@@ -14,7 +14,8 @@ Interview with Kraken - 2025-03-12 (週三) 下午5點 - 下午5:45 (GMT+8) <br>
 3. 是否使用過 k8s or container 管理 db
 4. 在申請職位時，會有一道題目，是關於如果P0 DB crash，每 downtime 一秒，公司就會損失很多錢，請問你會怎麼處理?  面試官會針對這個問題詢問面試者為什麼這麼做
 
-最重要的是 kraken 很重視工作文化和 crypto 熱忱，他們的官網有一篇露露等的文章在講述這塊 https://www.kraken.com/zh-cn/culture <br>面試時也問到了這些相關問題，例如你對我們的文化哪裡有共鳴?哪裡不清楚?那裡跟你契合等等等
+最重要的是 kraken 很重視工作文化和 crypto 熱忱，他們的官網有一篇露露等的文章在講述這塊 https://www.kraken.com/zh-cn/culture <br>面試時也問到了這些相關問題，例如你對我們的文化哪裡有共鳴?哪裡不清楚?那裡跟你契合等等等<br>
+我最印象深刻的是面試官還問我是 trader or holder 以及為什麼? 我說我是 bnb holder 之後他開始很有興致的和我聊 blockchain 的底層概念以及平台幣的發展經濟等等，問題是我壓根聽不懂，這應該也是我上不了的原因
 
 ## I ask questions:
 1. What is the scale of MySQL here, such as how many instances and how high the QPS is. What is the current status of the DBA team? and how many people are there? What kind of help do you hope this new DBA can bring to the team? 

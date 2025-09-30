@@ -94,10 +94,15 @@ https://meet.google.com/rdn-nujf-jrm?authuser=0&hs=122
 1. 對於 db 升級是怎麼做到 zero downtime
 2. 對於 data archive 都怎麼設計和計畫
 3. db password 的 ratate 是怎麼做的，如何結合 secret manager
-4. 大表分庫分表怎麼做?有沒有再擴容的經驗?遇到那些困難?
+4. 大表分庫分表怎麼做?對於已經分庫分表的業務有沒有再擴容的經驗?中間遇到那些困難?
 5. 大表操作 ddl 怎麼做? ghost 和 ptosc 的差異是什麼，優缺點又是什麼
 6. 對於 auto scaling 的設計和想法
 7. 有沒有用過 rds proxy 或 proxysql
+8. 有沒有寫過 shell scrupt or python，是否懂得開發 django
+9. 對於 cicd 是否了解，如何做 sql review and deploy
+10. 如果有不同市場或品牌出現，需要快速複製一些 table schema，你會怎麼做
+11. 對於跨區域災難備援的經驗
+12. 使用 terraform 和 ansible 的經驗
 
 
 ## 我問的問題包括：
@@ -128,6 +133,10 @@ Interviewer: Senior
 4. 對你來說，現在技術團隊的整體目標或方向是什麼?
 5. 能否分享你是如何當上 CTO 的歷程?
 6. 博弈市場瞬息萬變，公司對於技術創新和市場變化的應對策略是什麼?公司接下來幾年的短期目標是什麼？長期目標是什麼?
+
+
+## final leadership test on hackrank
+面試結束後，hr 再度發給我一份 hackrank 的測驗，裡面是一些關於帶領團隊和如何提升團隊的問題，需要按照經驗撰寫，時間只有 30分鐘，我基本沒有寫完。不確定這塊對面試結果是否有影響，hr 說只是個問卷而已。
 
 ## 總結
 Hr 我覺得蠻專業，在來回溝通也很人性，不會死板的照紙上規則。團隊兩次加起來四關的面試也都挺愉快，沒有任何感受不尊重的情況(比大陸人好太多了)。
